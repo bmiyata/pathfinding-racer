@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pathfinding-racer/static/css/main.7d847205.chunk.css",
+    "main.js": "/pathfinding-racer/static/js/main.185c15f5.chunk.js",
+    "main.js.map": "/pathfinding-racer/static/js/main.185c15f5.chunk.js.map",
+    "runtime-main.js": "/pathfinding-racer/static/js/runtime-main.3c500e77.js",
+    "runtime-main.js.map": "/pathfinding-racer/static/js/runtime-main.3c500e77.js.map",
+    "static/js/2.66ebd8cc.chunk.js": "/pathfinding-racer/static/js/2.66ebd8cc.chunk.js",
+    "static/js/2.66ebd8cc.chunk.js.map": "/pathfinding-racer/static/js/2.66ebd8cc.chunk.js.map",
+    "index.html": "/pathfinding-racer/index.html",
+    "precache-manifest.be4dc54681c1214b96dfab2a602e8099.js": "/pathfinding-racer/precache-manifest.be4dc54681c1214b96dfab2a602e8099.js",
+    "service-worker.js": "/pathfinding-racer/service-worker.js",
+    "static/css/main.7d847205.chunk.css.map": "/pathfinding-racer/static/css/main.7d847205.chunk.css.map",
+    "static/js/2.66ebd8cc.chunk.js.LICENSE.txt": "/pathfinding-racer/static/js/2.66ebd8cc.chunk.js.LICENSE.txt",
+    "static/media/sprite.svg": "/pathfinding-racer/static/media/sprite.3922528f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c500e77.js",
+    "static/js/2.66ebd8cc.chunk.js",
+    "static/css/main.7d847205.chunk.css",
+    "static/js/main.185c15f5.chunk.js"
+  ]
+}
