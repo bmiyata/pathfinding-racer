@@ -49,5 +49,6 @@ export const greedy = (grid, startNode, finishNode) => {
       queue.push(neighbor);
     }
   }
-  return [nodesInShortestPathOrder, visitedNodesInOrder];
+  grid = resetGridProperties(grid);
+  return [nodesInShortestPathOrder, visitedNodesInOrder, grid];
 };

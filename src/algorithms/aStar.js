@@ -86,7 +86,8 @@ export const aStar = (grid, startNode, finishNode) => {
   }
 
   // No result found
-  return [nodesInShortestPathOrder, closedList];
+  grid = resetGridProperties(grid);
+  return [nodesInShortestPathOrder, closedList, grid];
 };
 
 export const getNeighbors = (grid, currentNode) => {

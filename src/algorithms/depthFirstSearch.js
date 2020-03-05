@@ -33,5 +33,7 @@ export const depthFirstSearch = (grid, startNode, finishNode) => {
       }
     }
   }
-  return [nodesInShortestPathOrder, visitedNodesInOrder];
+  grid = resetGridProperties(grid);
+
+  return [nodesInShortestPathOrder, visitedNodesInOrder, grid];
 };

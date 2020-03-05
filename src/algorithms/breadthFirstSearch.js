@@ -38,6 +38,7 @@ export const breadthFirstSearch = (grid, startNode, finishNode) => {
       }
     }
   }
+  grid = resetGridProperties(grid);
 
-  return [nodesInShortestPathOrder, visitedNodesInOrder];
+  return [nodesInShortestPathOrder, visitedNodesInOrder, grid];
 };

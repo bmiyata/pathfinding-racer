@@ -20,6 +20,7 @@ import { greedy } from "../../algorithms/greedy";
 
 import { resetDistancesAndIsVisited } from "../../redux/grid/grid.actions";
 import { resetGridClasses } from "../../redux/grid/grid.util";
+import { isCompositeComponent } from "react-dom/test-utils";
 
 const Step4 = ({
   algorithm1,
@@ -184,6 +185,7 @@ const Step4 = ({
 
     // ALGORITHM 2
 
+    console.log(newGrid1);
     switch (algorithm2.algorithm) {
       case "Dijkstra's Algorithm":
         [
